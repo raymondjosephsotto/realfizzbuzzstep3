@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sets up Autoload (bootstrap) and direct it to /tests folder filepath -->
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true" stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Real FizzBuzz (Step 3) Test">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
